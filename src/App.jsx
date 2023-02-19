@@ -6,7 +6,7 @@ import Service from './components/services'
 import Footer from './components/footer';
 import Message from './components/message';
 import Testimonial from './components/testimonial'
-import CustomerTestimonial from './components/customerTestimonial';
+import CustomerTestimonial from './components/customerTestimonial'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <Service/>
       <Message/>
       <Testimonial/>
-      {/* <CustomerTestimonial/> */}
+      <CustomerTestimonial/>
       <Footer/>
     </div>
   )

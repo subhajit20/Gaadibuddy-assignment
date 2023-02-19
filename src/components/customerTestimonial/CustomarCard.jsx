@@ -2,55 +2,66 @@ import React from 'react'
 
 function CustomarCard() {
   return (
-    <div className='overflow-x-auto space-x-8 w-96 flex'>
-          <div class="flex justify-center">
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-              <img class="min-w-md h-64 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-              <div class="p-6 flex flex-col justify-start">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-              </div>
-            </div>
+    <div className='flex overflow-x-auto flex-no-wrap gap-x-10 snap-x snap-mandetory justify-center'>
+      <div className="flex-none grid grid-cols-1  p-5 bg-white shadow-md rounded-md w-[350px] h-full snap-always snap-center">
+        <div className='grid grid-cols-2 place-content-center '>
+          <div className='justify-self-start'>
+            <img src="https://i.pravatar.cc/100?img=1" alt="" className='rounded-full'/>
           </div>
-          <div class="flex justify-center">
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-              <img class="min-w-md h-64 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-              <div class="p-6 flex flex-col justify-start">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-              </div>
-            </div>
+          <div className='justify-self-start'>
+            <h4 className='text-xl font-medium'>John Doe</h4>
+            <h4><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h4>
           </div>
-          <div class="flex justify-center">
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-              <img class="min-w-md h-64 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-              <div class="p-6 flex flex-col justify-start">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-              </div>
-            </div>
+        </div>
+
+        <div className='min-w-sm pt-3 text-xl font-normal' style={{width:"23rem"}}>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil exercitationem, consequatur commodi ut voluptas, rem fugiat molestiae est dignissimos veritatis temporibus hic quisquam earum! Soluta sit modi dignissimos consequuntur iste.</p>
+        </div>
+      </div>
+      <div className="flex-none grid grid-cols-1  p-5 bg-white shadow-md rounded-md w-[350px] h-full snap-always snap-center">
+        <div className='grid grid-cols-2 place-content-center '>
+          <div className='justify-self-start'>
+            <img src="https://i.pravatar.cc/100?img=1" alt="" className='rounded-full'/>
           </div>
-          <div class="flex justify-center">
-            <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-              <img class="min-w-md h-64 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-              <div class="p-6 flex flex-col justify-start">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                </p>
-                <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-              </div>
-            </div>
+          <div className='justify-self-start'>
+            <h4 className='text-xl font-medium'>John Doe</h4>
+            <h4><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h4>
           </div>
+        </div>
+
+        <div className='min-w-sm pt-3 text-xl font-normal' style={{width:"23rem"}}>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil exercitationem, consequatur commodi ut voluptas, rem fugiat molestiae est dignissimos veritatis temporibus hic quisquam earum! Soluta sit modi dignissimos consequuntur iste.</p>
+        </div>
+      </div>
+      <div className="flex-none grid grid-cols-1 p-5 bg-white shadow-md rounded-md w-[350px] h-full snap-always snap-center">
+        <div className='grid grid-cols-2 place-content-center '>
+          <div className='justify-self-start'>
+            <img src="https://i.pravatar.cc/100?img=1" alt="" className='rounded-full'/>
+          </div>
+          <div className='justify-self-start'>
+            <h4 className='text-xl font-medium'>John Doe</h4>
+            <h4><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h4>
+          </div>
+        </div>
+
+        <div className=' pt-3 text-xl font-normal' style={{width:"23rem"}}>
+          <p className='max-w-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil exercitationem, consequatur commodi ut voluptas, rem fugiat molestiae est dignissimos veritatis temporibus hic quisquam earum! Soluta sit modi dignissimos consequuntur iste.</p>
+        </div>
+      </div>
+      
+        {/* <div className="w-1/5 container mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6 shadow-md">
+              <div className="w-full flex mb-4 items-center">
+                  <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                      <img src="https://i.pravatar.cc/100?img=1" alt=""/>
+                  </div>
+                  <div className="flex-grow pl-3">
+                      <h6 className="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
+                  </div>
+              </div>
+              <div className="w-full">
+                  <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+              </div>
+        </div> */}
     </div>
   )
 }

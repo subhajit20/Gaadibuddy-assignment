@@ -11,7 +11,7 @@ function index() {
                 <h3 className='text-base lg:text-5xl text-white '>Washing</h3>
                 <p className='object-scale-down max-w-sm lg:max-w-5xl text-white text-xs lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam dolore maxime ut possimus, </p>
                 <p className='object-scale-down max-w-sm lg:max-w-5xl text-white text-xs lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                <button className='bg-orange-600 text-white text-sm lg:text-4xl px-3 lg:px-16 rounded-3xl mt-3'>Book Now</button>
+                <button className='bg-orange-600 text-white text-sm lg:text-3xl px-3 lg:px-16 rounded-3xl mt-3'>Book Now</button>
             </div>
         </div>
 

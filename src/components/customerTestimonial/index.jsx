@@ -4,7 +4,7 @@ import CustomarCard from './CustomarCard';
 
 function index() {
   return (
-    <div>
+    <div className='pb-5'>
       <Heading/>
       <CustomarCard/>
     </div>
